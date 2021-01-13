@@ -36,6 +36,11 @@ class MainActivity : AppCompatActivity() {
         Log.e(TAG, "onResume: ")
     }
 
+    override fun onStop() {
+        super.onStop()
+        Log.e(TAG, "onStop: ")
+    }
+
     fun setNotification() {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
