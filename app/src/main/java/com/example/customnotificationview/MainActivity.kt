@@ -46,6 +46,11 @@ class MainActivity : AppCompatActivity() {
         Log.e(TAG, "onRestart: " )
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.e(TAG, "onDestroy: ")
+    }
+
     fun setNotification() {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
