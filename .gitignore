@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -14,6 +16,8 @@
 .cxx
 local.properties
 =======
+=======
+>>>>>>> Initial commit
 # Built application files
 *.apk
 *.aar
@@ -99,4 +103,7 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+<<<<<<< HEAD
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
