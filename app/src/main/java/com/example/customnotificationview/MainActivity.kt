@@ -41,6 +41,11 @@ class MainActivity : AppCompatActivity() {
         Log.e(TAG, "onStop: ")
     }
 
+    override fun onRestart() {
+        super.onRestart()
+        Log.e(TAG, "onRestart: " )
+    }
+
     fun setNotification() {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
