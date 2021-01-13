@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity() {
         setNotification()
     }
 
+    override fun onStart() {
+        super.onStart()
+        Log.e(TAG, "onStart: ")
+    }
 
     fun setNotification() {
 
